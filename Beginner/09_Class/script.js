@@ -21,3 +21,10 @@ function WelCome(name, sayhi) {
 
 let result = WelCome("Gopal", sayhi());
 result2 = WelCome("Sunil", sayhi());
+
+function printName(name, callback) {
+  console.log(callback);
+  callback("hello " + name);
+}
+
+printName("gopal", sayhi());
