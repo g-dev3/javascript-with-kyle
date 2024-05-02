@@ -1,0 +1,19 @@
+#modal {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: .25rem;
+    background: white;
+}
+
+#modal.open {
+    display: block;
+}
+
+#overlay.open {
+    display: block;
+}
